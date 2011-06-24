@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8672EB7413B4607400E64637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7313B4607400E64637 /* UIKit.framework */; };
+		8672EB7613B4607400E64637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7513B4607400E64637 /* Foundation.framework */; };
+		8672EB7813B4607400E64637 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7713B4607400E64637 /* CoreGraphics.framework */; };
+		8672EB7A13B4607400E64637 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7913B4607400E64637 /* CoreData.framework */; };
+		8672EB8013B4607400E64637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB7E13B4607400E64637 /* InfoPlist.strings */; };
+		8672EB8313B4607400E64637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8213B4607400E64637 /* main.m */; };
+		8672EB8613B4607400E64637 /* AboutTimePlusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */; };
+		8672EB8913B4607400E64637 /* AboutTimePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */; };
+		8672EB8D13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8C13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m */; };
+		8672EB9013B4607400E64637 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB8E13B4607400E64637 /* MainWindow_iPhone.xib */; };
+		8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB9313B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m */; };
+		8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9513B4607400E64637 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8672EB6F13B4607400E64637 /* AboutTimePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutTimePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8672EB7313B4607400E64637 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8672EB7513B4607400E64637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8672EB7713B4607400E64637 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8672EB7913B4607400E64637 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8672EB7D13B4607400E64637 /* AboutTimePlus-Info.plist */ = {isa = PBXFileReference; path = "AboutTimePlus-Info.plist"; sourceTree = "<group>"; };
+		8672EB7F13B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8672EB8113B4607400E64637 /* AboutTimePlus-Prefix.pch */ = {isa = PBXFileReference; path = "AboutTimePlus-Prefix.pch"; sourceTree = "<group>"; };
+		8672EB8213B4607400E64637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */ = {isa = PBXFileReference; path = AboutTimePlusAppDelegate.h; sourceTree = "<group>"; };
+		8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutTimePlusAppDelegate.m; sourceTree = "<group>"; };
+		8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AboutTimePlus.xcdatamodel; sourceTree = "<group>"; };
+		8672EB8B13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = AboutTimePlusAppDelegate_iPhone.h; path = iPhone/AboutTimePlusAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8672EB8C13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutTimePlusAppDelegate_iPhone.m; path = iPhone/AboutTimePlusAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8672EB8F13B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		8672EB9213B4607400E64637 /* AboutTimePlusAppDelegate_iPad.h */ = {isa = PBXFileReference; name = AboutTimePlusAppDelegate_iPad.h; path = iPad/AboutTimePlusAppDelegate_iPad.h; sourceTree = "<group>"; };
+		8672EB9313B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutTimePlusAppDelegate_iPad.m; path = iPad/AboutTimePlusAppDelegate_iPad.m; sourceTree = "<group>"; };
+		8672EB9613B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8672EB6C13B4607400E64637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8672EB7413B4607400E64637 /* UIKit.framework in Frameworks */,
+				8672EB7613B4607400E64637 /* Foundation.framework in Frameworks */,
+				8672EB7813B4607400E64637 /* CoreGraphics.framework in Frameworks */,
+				8672EB7A13B4607400E64637 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8672EB6413B4607400E64637 = {
+			isa = PBXGroup;
+			children = (
+				8672EB7B13B4607400E64637 /* AboutTimePlus */,
+				8672EB7213B4607400E64637 /* Frameworks */,
+				8672EB7013B4607400E64637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8672EB7013B4607400E64637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB6F13B4607400E64637 /* AboutTimePlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8672EB7213B4607400E64637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB7313B4607400E64637 /* UIKit.framework */,
+				8672EB7513B4607400E64637 /* Foundation.framework */,
+				8672EB7713B4607400E64637 /* CoreGraphics.framework */,
+				8672EB7913B4607400E64637 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8672EB7B13B4607400E64637 /* AboutTimePlus */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */,
+				8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */,
+				8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */,
+				8672EB8A13B4607400E64637 /* iPhone */,
+				8672EB9113B4607400E64637 /* iPad */,
+				8672EB7C13B4607400E64637 /* Supporting Files */,
+			);
+			path = AboutTimePlus;
+			sourceTree = "<group>";
+		};
+		8672EB7C13B4607400E64637 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB7D13B4607400E64637 /* AboutTimePlus-Info.plist */,
+				8672EB7E13B4607400E64637 /* InfoPlist.strings */,
+				8672EB8113B4607400E64637 /* AboutTimePlus-Prefix.pch */,
+				8672EB8213B4607400E64637 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8672EB8A13B4607400E64637 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB8B13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.h */,
+				8672EB8C13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m */,
+				8672EB8E13B4607400E64637 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8672EB9113B4607400E64637 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB9213B4607400E64637 /* AboutTimePlusAppDelegate_iPad.h */,
+				8672EB9313B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m */,
+				8672EB9513B4607400E64637 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8672EB6E13B4607400E64637 /* AboutTimePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8672EB9A13B4607400E64637 /* Build configuration list for PBXNativeTarget "AboutTimePlus" */;
+			buildPhases = (
+				8672EB6B13B4607400E64637 /* Sources */,
+				8672EB6C13B4607400E64637 /* Frameworks */,
+				8672EB6D13B4607400E64637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AboutTimePlus;
+			productName = AboutTimePlus;
+			productReference = 8672EB6F13B4607400E64637 /* AboutTimePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8672EB6613B4607400E64637 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8672EB6913B4607400E64637 /* Build configuration list for PBXProject "AboutTimePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8672EB6413B4607400E64637;
+			productRefGroup = 8672EB7013B4607400E64637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8672EB6E13B4607400E64637 /* AboutTimePlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8672EB6D13B4607400E64637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8672EB8013B4607400E64637 /* InfoPlist.strings in Resources */,
+				8672EB9013B4607400E64637 /* MainWindow_iPhone.xib in Resources */,
+				8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8672EB6B13B4607400E64637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8672EB8313B4607400E64637 /* main.m in Sources */,
+				8672EB8613B4607400E64637 /* AboutTimePlusAppDelegate.m in Sources */,
+				8672EB8913B4607400E64637 /* AboutTimePlus.xcdatamodeld in Sources */,
+				8672EB8D13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m in Sources */,
+				8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8672EB7E13B4607400E64637 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8672EB7F13B4607400E64637 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8672EB8E13B4607400E64637 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8672EB8F13B4607400E64637 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8672EB9513B4607400E64637 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8672EB9613B4607400E64637 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8672EB9813B4607400E64637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8672EB9913B4607400E64637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8672EB9B13B4607400E64637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AboutTimePlus/AboutTimePlus-Prefix.pch";
+				INFOPLIST_FILE = "AboutTimePlus/AboutTimePlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8672EB9C13B4607400E64637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AboutTimePlus/AboutTimePlus-Prefix.pch";
+				INFOPLIST_FILE = "AboutTimePlus/AboutTimePlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8672EB6913B4607400E64637 /* Build configuration list for PBXProject "AboutTimePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8672EB9813B4607400E64637 /* Debug */,
+				8672EB9913B4607400E64637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8672EB9A13B4607400E64637 /* Build configuration list for PBXNativeTarget "AboutTimePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8672EB9B13B4607400E64637 /* Debug */,
+				8672EB9C13B4607400E64637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */,
+			);
+			currentVersion = 8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */;
+			path = AboutTimePlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8672EB6613B4607400E64637 /* Project object */;
+}
