@@ -19,6 +19,8 @@
 		8672EB9013B4607400E64637 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB8E13B4607400E64637 /* MainWindow_iPhone.xib */; };
 		8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB9313B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m */; };
 		8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9513B4607400E64637 /* MainWindow_iPad.xib */; };
+		8672EBA013B460F600E64637 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB9E13B460F600E64637 /* MainViewController.m */; };
+		8672EBA113B460F600E64637 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9F13B460F600E64637 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,19 +29,22 @@
 		8672EB7513B4607400E64637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8672EB7713B4607400E64637 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8672EB7913B4607400E64637 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		8672EB7D13B4607400E64637 /* AboutTimePlus-Info.plist */ = {isa = PBXFileReference; path = "AboutTimePlus-Info.plist"; sourceTree = "<group>"; };
+		8672EB7D13B4607400E64637 /* AboutTimePlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AboutTimePlus-Info.plist"; sourceTree = "<group>"; };
 		8672EB7F13B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8672EB8113B4607400E64637 /* AboutTimePlus-Prefix.pch */ = {isa = PBXFileReference; path = "AboutTimePlus-Prefix.pch"; sourceTree = "<group>"; };
+		8672EB8113B4607400E64637 /* AboutTimePlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AboutTimePlus-Prefix.pch"; sourceTree = "<group>"; };
 		8672EB8213B4607400E64637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */ = {isa = PBXFileReference; path = AboutTimePlusAppDelegate.h; sourceTree = "<group>"; };
+		8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutTimePlusAppDelegate.h; sourceTree = "<group>"; };
 		8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutTimePlusAppDelegate.m; sourceTree = "<group>"; };
 		8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AboutTimePlus.xcdatamodel; sourceTree = "<group>"; };
-		8672EB8B13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = AboutTimePlusAppDelegate_iPhone.h; path = iPhone/AboutTimePlusAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8672EB8B13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutTimePlusAppDelegate_iPhone.h; path = iPhone/AboutTimePlusAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		8672EB8C13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutTimePlusAppDelegate_iPhone.m; path = iPhone/AboutTimePlusAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		8672EB8F13B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		8672EB9213B4607400E64637 /* AboutTimePlusAppDelegate_iPad.h */ = {isa = PBXFileReference; name = AboutTimePlusAppDelegate_iPad.h; path = iPad/AboutTimePlusAppDelegate_iPad.h; sourceTree = "<group>"; };
+		8672EB9213B4607400E64637 /* AboutTimePlusAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutTimePlusAppDelegate_iPad.h; path = iPad/AboutTimePlusAppDelegate_iPad.h; sourceTree = "<group>"; };
 		8672EB9313B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutTimePlusAppDelegate_iPad.m; path = iPad/AboutTimePlusAppDelegate_iPad.m; sourceTree = "<group>"; };
 		8672EB9613B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		8672EB9D13B460F600E64637 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		8672EB9E13B460F600E64637 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		8672EB9F13B460F600E64637 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 		8672EB7B13B4607400E64637 /* AboutTimePlus */ = {
 			isa = PBXGroup;
 			children = (
+				8672EB9D13B460F600E64637 /* MainViewController.h */,
+				8672EB9E13B460F600E64637 /* MainViewController.m */,
+				8672EB9F13B460F600E64637 /* MainViewController.xib */,
 				8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */,
 				8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */,
 				8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */,
@@ -179,6 +187,7 @@
 				8672EB8013B4607400E64637 /* InfoPlist.strings in Resources */,
 				8672EB9013B4607400E64637 /* MainWindow_iPhone.xib in Resources */,
 				8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */,
+				8672EBA113B460F600E64637 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +203,7 @@
 				8672EB8913B4607400E64637 /* AboutTimePlus.xcdatamodeld in Sources */,
 				8672EB8D13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m in Sources */,
 				8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */,
+				8672EBA013B460F600E64637 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
