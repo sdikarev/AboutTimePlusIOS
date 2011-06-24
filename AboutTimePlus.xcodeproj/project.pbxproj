@@ -93,9 +93,7 @@
 		8672EB7B13B4607400E64637 /* AboutTimePlus */ = {
 			isa = PBXGroup;
 			children = (
-				8672EB9D13B460F600E64637 /* MainViewController.h */,
-				8672EB9E13B460F600E64637 /* MainViewController.m */,
-				8672EB9F13B460F600E64637 /* MainViewController.xib */,
+				86AF4B9413B462B400B86EBF /* MainScreen */,
 				8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */,
 				8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */,
 				8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */,
@@ -135,6 +133,16 @@
 				8672EB9513B4607400E64637 /* MainWindow_iPad.xib */,
 			);
 			name = iPad;
+			sourceTree = "<group>";
+		};
+		86AF4B9413B462B400B86EBF /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB9D13B460F600E64637 /* MainViewController.h */,
+				8672EB9E13B460F600E64637 /* MainViewController.m */,
+				8672EB9F13B460F600E64637 /* MainViewController.xib */,
+			);
+			name = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +326,7 @@
 				8672EB9C13B4607400E64637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
