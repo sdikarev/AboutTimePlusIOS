@@ -8,8 +8,9 @@
 
 #import "AboutTimePlusAppDelegate.h"
 #import "MainViewController.h"
+#import "Reachability.h"
 @implementation AboutTimePlusAppDelegate
-@synthesize isIphone;
+@synthesize isIphone, sc, settings, cs, hostReach;
 
 @synthesize window=_window;
 
@@ -30,13 +31,37 @@
     {
         isIphone = NO;
     }
+    
+    [self initAll];
     MainViewController *m = [[MainViewController alloc] initWithNibName:isIphone ? @"MainViewController" : @"MainViewControllerIPAD" bundle:nil];
     [self.window addSubview:m.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
 
-
+-(void)initAll
+{
+    self.sc = [[SyncCenter alloc] initSyncCenter];
+	self.sc.managedObjectContext = self.managedObjectContext;
+	
+	
+	
+	self.settings = nil;
+	[self.settings release];
+	self.settings = [self.sc LoadSettings];
+    
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+	
+	//Change the host name here to change the server your monitoring
+	hostReach = [[Reachability reachabilityWithHostName:self.settings.myServer] retain];
+	//hostReach = [[Reachability reachabilityWithHostName:@"incoding.biz"] retain];
+	[hostReach startNotifier];
+	//[self updateInterfaceWithReachability: hostReach];
+    
+	self.cs = [sc LoadClockState];
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -81,6 +106,10 @@
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
+    [sc release];
+    [cs release];
+    [settings release];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
     [super dealloc];
 }
 
