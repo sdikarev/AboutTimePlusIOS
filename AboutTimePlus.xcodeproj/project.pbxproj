@@ -21,6 +21,30 @@
 		8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9513B4607400E64637 /* MainWindow_iPad.xib */; };
 		8672EBA013B460F600E64637 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB9E13B460F600E64637 /* MainViewController.m */; };
 		8672EBA113B460F600E64637 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9F13B460F600E64637 /* MainViewController.xib */; };
+		E7372DE713B727D300CC7D96 /* MainViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */; };
+		E7372DFF13B72DF900CC7D96 /* iFieldClock.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */; };
+		E7372E0213B72FC900CC7D96 /* FieldNoteBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E0113B72FC800CC7D96 /* FieldNoteBackup.m */; };
+		E7372E0513B72FC900CC7D96 /* EquipmentUse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E0413B72FC900CC7D96 /* EquipmentUse.m */; };
+		E7372E0813B72FC900CC7D96 /* MealExpenseBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E0713B72FC900CC7D96 /* MealExpenseBackup.m */; };
+		E7372E0B13B72FC900CC7D96 /* CostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E0A13B72FC900CC7D96 /* CostCode.m */; };
+		E7372E0E13B72FCA00CC7D96 /* EmployeeCostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E0D13B72FCA00CC7D96 /* EmployeeCostCode.m */; };
+		E7372E1113B72FCA00CC7D96 /* FeedbackQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E1013B72FCA00CC7D96 /* FeedbackQuestion.m */; };
+		E7372E1413B72FCA00CC7D96 /* JobPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E1313B72FCA00CC7D96 /* JobPhoto.m */; };
+		E7372E1713B72FCA00CC7D96 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E1613B72FCA00CC7D96 /* Customer.m */; };
+		E7372E1A13B72FCB00CC7D96 /* SystemData.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E1913B72FCA00CC7D96 /* SystemData.m */; };
+		E7372E1D13B72FCB00CC7D96 /* FieldNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E1C13B72FCB00CC7D96 /* FieldNote.m */; };
+		E7372E2013B72FCB00CC7D96 /* CustomerEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E1F13B72FCB00CC7D96 /* CustomerEmployee.m */; };
+		E7372E2313B72FCB00CC7D96 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E2213B72FCB00CC7D96 /* Clock.m */; };
+		E7372E2613B72FCB00CC7D96 /* CustomerCostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E2513B72FCB00CC7D96 /* CustomerCostCode.m */; };
+		E7372E2913B72FCB00CC7D96 /* FeedbackAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E2813B72FCB00CC7D96 /* FeedbackAnswer.m */; };
+		E7372E2C13B72FCC00CC7D96 /* TimeRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E2B13B72FCC00CC7D96 /* TimeRecording.m */; };
+		E7372E2F13B72FCC00CC7D96 /* TimeRecordingBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E2E13B72FCC00CC7D96 /* TimeRecordingBackup.m */; };
+		E7372E3213B72FCC00CC7D96 /* CustomList.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E3113B72FCC00CC7D96 /* CustomList.m */; };
+		E7372E3513B72FCC00CC7D96 /* FeedbackAnswerBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E3413B72FCC00CC7D96 /* FeedbackAnswerBackup.m */; };
+		E7372E3813B72FCC00CC7D96 /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E3713B72FCC00CC7D96 /* Equipment.m */; };
+		E7372E3B13B72FCD00CC7D96 /* MealExpense.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E3A13B72FCD00CC7D96 /* MealExpense.m */; };
+		E7372E3E13B72FCD00CC7D96 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E3D13B72FCD00CC7D96 /* Company.m */; };
+		E7372E4113B72FCD00CC7D96 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E4013B72FCD00CC7D96 /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +69,53 @@
 		8672EB9D13B460F600E64637 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		8672EB9E13B460F600E64637 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		8672EB9F13B460F600E64637 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllerIPAD.xib; sourceTree = "<group>"; };
+		E7372DEF13B729F600CC7D96 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFieldClock.xcdatamodel; sourceTree = "<group>"; };
+		E7372E0013B72FC800CC7D96 /* FieldNoteBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNoteBackup.h; sourceTree = "<group>"; };
+		E7372E0113B72FC800CC7D96 /* FieldNoteBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNoteBackup.m; sourceTree = "<group>"; };
+		E7372E0313B72FC900CC7D96 /* EquipmentUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentUse.h; sourceTree = "<group>"; };
+		E7372E0413B72FC900CC7D96 /* EquipmentUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentUse.m; sourceTree = "<group>"; };
+		E7372E0613B72FC900CC7D96 /* MealExpenseBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealExpenseBackup.h; sourceTree = "<group>"; };
+		E7372E0713B72FC900CC7D96 /* MealExpenseBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealExpenseBackup.m; sourceTree = "<group>"; };
+		E7372E0913B72FC900CC7D96 /* CostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostCode.h; sourceTree = "<group>"; };
+		E7372E0A13B72FC900CC7D96 /* CostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostCode.m; sourceTree = "<group>"; };
+		E7372E0C13B72FC900CC7D96 /* EmployeeCostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCostCode.h; sourceTree = "<group>"; };
+		E7372E0D13B72FCA00CC7D96 /* EmployeeCostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCostCode.m; sourceTree = "<group>"; };
+		E7372E0F13B72FCA00CC7D96 /* FeedbackQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackQuestion.h; sourceTree = "<group>"; };
+		E7372E1013B72FCA00CC7D96 /* FeedbackQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackQuestion.m; sourceTree = "<group>"; };
+		E7372E1213B72FCA00CC7D96 /* JobPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobPhoto.h; sourceTree = "<group>"; };
+		E7372E1313B72FCA00CC7D96 /* JobPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobPhoto.m; sourceTree = "<group>"; };
+		E7372E1513B72FCA00CC7D96 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		E7372E1613B72FCA00CC7D96 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		E7372E1813B72FCA00CC7D96 /* SystemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemData.h; sourceTree = "<group>"; };
+		E7372E1913B72FCA00CC7D96 /* SystemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemData.m; sourceTree = "<group>"; };
+		E7372E1B13B72FCB00CC7D96 /* FieldNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNote.h; sourceTree = "<group>"; };
+		E7372E1C13B72FCB00CC7D96 /* FieldNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNote.m; sourceTree = "<group>"; };
+		E7372E1E13B72FCB00CC7D96 /* CustomerEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerEmployee.h; sourceTree = "<group>"; };
+		E7372E1F13B72FCB00CC7D96 /* CustomerEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerEmployee.m; sourceTree = "<group>"; };
+		E7372E2113B72FCB00CC7D96 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		E7372E2213B72FCB00CC7D96 /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		E7372E2413B72FCB00CC7D96 /* CustomerCostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCostCode.h; sourceTree = "<group>"; };
+		E7372E2513B72FCB00CC7D96 /* CustomerCostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCostCode.m; sourceTree = "<group>"; };
+		E7372E2713B72FCB00CC7D96 /* FeedbackAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackAnswer.h; sourceTree = "<group>"; };
+		E7372E2813B72FCB00CC7D96 /* FeedbackAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackAnswer.m; sourceTree = "<group>"; };
+		E7372E2A13B72FCB00CC7D96 /* TimeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecording.h; sourceTree = "<group>"; };
+		E7372E2B13B72FCC00CC7D96 /* TimeRecording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecording.m; sourceTree = "<group>"; };
+		E7372E2D13B72FCC00CC7D96 /* TimeRecordingBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecordingBackup.h; sourceTree = "<group>"; };
+		E7372E2E13B72FCC00CC7D96 /* TimeRecordingBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecordingBackup.m; sourceTree = "<group>"; };
+		E7372E3013B72FCC00CC7D96 /* CustomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomList.h; sourceTree = "<group>"; };
+		E7372E3113B72FCC00CC7D96 /* CustomList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomList.m; sourceTree = "<group>"; };
+		E7372E3313B72FCC00CC7D96 /* FeedbackAnswerBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackAnswerBackup.h; sourceTree = "<group>"; };
+		E7372E3413B72FCC00CC7D96 /* FeedbackAnswerBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackAnswerBackup.m; sourceTree = "<group>"; };
+		E7372E3613B72FCC00CC7D96 /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		E7372E3713B72FCC00CC7D96 /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
+		E7372E3913B72FCC00CC7D96 /* MealExpense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealExpense.h; sourceTree = "<group>"; };
+		E7372E3A13B72FCD00CC7D96 /* MealExpense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealExpense.m; sourceTree = "<group>"; };
+		E7372E3C13B72FCD00CC7D96 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		E7372E3D13B72FCD00CC7D96 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		E7372E3F13B72FCD00CC7D96 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		E7372E4013B72FCD00CC7D96 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +164,11 @@
 		8672EB7B13B4607400E64637 /* AboutTimePlus */ = {
 			isa = PBXGroup;
 			children = (
+				E7372DE813B729C200CC7D96 /* Helpers */,
 				86AF4B9413B462B400B86EBF /* MainScreen */,
 				8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */,
 				8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */,
-				8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */,
+				E7C1E64613B7307B00ECCE9E /* DataModel */,
 				8672EB8A13B4607400E64637 /* iPhone */,
 				8672EB9113B4607400E64637 /* iPad */,
 				8672EB7C13B4607400E64637 /* Supporting Files */,
@@ -141,8 +213,70 @@
 				8672EB9D13B460F600E64637 /* MainViewController.h */,
 				8672EB9E13B460F600E64637 /* MainViewController.m */,
 				8672EB9F13B460F600E64637 /* MainViewController.xib */,
+				E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */,
 			);
 			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		E7372DE813B729C200CC7D96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E7372DEF13B729F600CC7D96 /* Defines.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E7C1E64613B7307B00ECCE9E /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */,
+				E7372E3F13B72FCD00CC7D96 /* Employee.h */,
+				E7372E4013B72FCD00CC7D96 /* Employee.m */,
+				E7372E3C13B72FCD00CC7D96 /* Company.h */,
+				E7372E3D13B72FCD00CC7D96 /* Company.m */,
+				E7372E3913B72FCC00CC7D96 /* MealExpense.h */,
+				E7372E3A13B72FCD00CC7D96 /* MealExpense.m */,
+				E7372E3613B72FCC00CC7D96 /* Equipment.h */,
+				E7372E3713B72FCC00CC7D96 /* Equipment.m */,
+				E7372E3313B72FCC00CC7D96 /* FeedbackAnswerBackup.h */,
+				E7372E3413B72FCC00CC7D96 /* FeedbackAnswerBackup.m */,
+				E7372E3013B72FCC00CC7D96 /* CustomList.h */,
+				E7372E3113B72FCC00CC7D96 /* CustomList.m */,
+				E7372E2D13B72FCC00CC7D96 /* TimeRecordingBackup.h */,
+				E7372E2E13B72FCC00CC7D96 /* TimeRecordingBackup.m */,
+				E7372E2A13B72FCB00CC7D96 /* TimeRecording.h */,
+				E7372E2B13B72FCC00CC7D96 /* TimeRecording.m */,
+				E7372E2713B72FCB00CC7D96 /* FeedbackAnswer.h */,
+				E7372E2813B72FCB00CC7D96 /* FeedbackAnswer.m */,
+				E7372E2413B72FCB00CC7D96 /* CustomerCostCode.h */,
+				E7372E2513B72FCB00CC7D96 /* CustomerCostCode.m */,
+				E7372E2113B72FCB00CC7D96 /* Clock.h */,
+				E7372E2213B72FCB00CC7D96 /* Clock.m */,
+				E7372E1E13B72FCB00CC7D96 /* CustomerEmployee.h */,
+				E7372E1F13B72FCB00CC7D96 /* CustomerEmployee.m */,
+				E7372E1B13B72FCB00CC7D96 /* FieldNote.h */,
+				E7372E1C13B72FCB00CC7D96 /* FieldNote.m */,
+				E7372E1813B72FCA00CC7D96 /* SystemData.h */,
+				E7372E1913B72FCA00CC7D96 /* SystemData.m */,
+				E7372E1513B72FCA00CC7D96 /* Customer.h */,
+				E7372E1613B72FCA00CC7D96 /* Customer.m */,
+				E7372E1213B72FCA00CC7D96 /* JobPhoto.h */,
+				E7372E1313B72FCA00CC7D96 /* JobPhoto.m */,
+				E7372E0F13B72FCA00CC7D96 /* FeedbackQuestion.h */,
+				E7372E1013B72FCA00CC7D96 /* FeedbackQuestion.m */,
+				E7372E0C13B72FC900CC7D96 /* EmployeeCostCode.h */,
+				E7372E0D13B72FCA00CC7D96 /* EmployeeCostCode.m */,
+				E7372E0913B72FC900CC7D96 /* CostCode.h */,
+				E7372E0A13B72FC900CC7D96 /* CostCode.m */,
+				E7372E0613B72FC900CC7D96 /* MealExpenseBackup.h */,
+				E7372E0713B72FC900CC7D96 /* MealExpenseBackup.m */,
+				E7372E0313B72FC900CC7D96 /* EquipmentUse.h */,
+				E7372E0413B72FC900CC7D96 /* EquipmentUse.m */,
+				E7372E0013B72FC800CC7D96 /* FieldNoteBackup.h */,
+				E7372E0113B72FC800CC7D96 /* FieldNoteBackup.m */,
+				E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +330,7 @@
 				8672EB9013B4607400E64637 /* MainWindow_iPhone.xib in Resources */,
 				8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */,
 				8672EBA113B460F600E64637 /* MainViewController.xib in Resources */,
+				E7372DE713B727D300CC7D96 /* MainViewControllerIPAD.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +347,29 @@
 				8672EB8D13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m in Sources */,
 				8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */,
 				8672EBA013B460F600E64637 /* MainViewController.m in Sources */,
+				E7372DFF13B72DF900CC7D96 /* iFieldClock.xcdatamodel in Sources */,
+				E7372E0213B72FC900CC7D96 /* FieldNoteBackup.m in Sources */,
+				E7372E0513B72FC900CC7D96 /* EquipmentUse.m in Sources */,
+				E7372E0813B72FC900CC7D96 /* MealExpenseBackup.m in Sources */,
+				E7372E0B13B72FC900CC7D96 /* CostCode.m in Sources */,
+				E7372E0E13B72FCA00CC7D96 /* EmployeeCostCode.m in Sources */,
+				E7372E1113B72FCA00CC7D96 /* FeedbackQuestion.m in Sources */,
+				E7372E1413B72FCA00CC7D96 /* JobPhoto.m in Sources */,
+				E7372E1713B72FCA00CC7D96 /* Customer.m in Sources */,
+				E7372E1A13B72FCB00CC7D96 /* SystemData.m in Sources */,
+				E7372E1D13B72FCB00CC7D96 /* FieldNote.m in Sources */,
+				E7372E2013B72FCB00CC7D96 /* CustomerEmployee.m in Sources */,
+				E7372E2313B72FCB00CC7D96 /* Clock.m in Sources */,
+				E7372E2613B72FCB00CC7D96 /* CustomerCostCode.m in Sources */,
+				E7372E2913B72FCB00CC7D96 /* FeedbackAnswer.m in Sources */,
+				E7372E2C13B72FCC00CC7D96 /* TimeRecording.m in Sources */,
+				E7372E2F13B72FCC00CC7D96 /* TimeRecordingBackup.m in Sources */,
+				E7372E3213B72FCC00CC7D96 /* CustomList.m in Sources */,
+				E7372E3513B72FCC00CC7D96 /* FeedbackAnswerBackup.m in Sources */,
+				E7372E3813B72FCC00CC7D96 /* Equipment.m in Sources */,
+				E7372E3B13B72FCD00CC7D96 /* MealExpense.m in Sources */,
+				E7372E3E13B72FCD00CC7D96 /* Company.m in Sources */,
+				E7372E4113B72FCD00CC7D96 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
