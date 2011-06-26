@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import "Defines.h"
 
 @implementation MainViewController
 
@@ -38,6 +38,14 @@
 
 - (void)viewDidLoad
 {
+    if(AppDelegate.isIphone)
+    {
+        lblTest.text = @"Iphone";
+    }
+    else
+    {
+        lblTest.text = @"IPAD";
+    }
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

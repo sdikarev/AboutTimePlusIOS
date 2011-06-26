@@ -7,9 +7,10 @@
 //
 
 #import "AboutTimePlusAppDelegate.h"
-
+#import "Defines.h"
+#import "MainViewController.h"
 @implementation AboutTimePlusAppDelegate
-
+@synthesize isIphone;
 
 @synthesize window=_window;
 
@@ -22,9 +23,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+    {
+        isIphone = YES;
+    }
+    else
+    {
+        isIphone = NO;
+    }
+    MainViewController *m = [[MainViewController alloc] initWithNibName:isIphone ? @"MainViewController" : @"MainViewControllerIPAD" bundle:nil];
+    [self.window addSubview:m.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
