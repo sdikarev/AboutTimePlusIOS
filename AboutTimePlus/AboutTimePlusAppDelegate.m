@@ -7,7 +7,6 @@
 //
 
 #import "AboutTimePlusAppDelegate.h"
-#import "Defines.h"
 #import "MainViewController.h"
 @implementation AboutTimePlusAppDelegate
 @synthesize isIphone;
