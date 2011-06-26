@@ -40,11 +40,11 @@
 {
     if(AppDelegate.isIphone)
     {
-        lblTest.text = @"Iphone";
+        //lblTest.text = @"Iphone";
     }
     else
     {
-        lblTest.text = @"IPAD";
+        //lblTest.text = @"IPAD";
     }
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

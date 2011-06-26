@@ -10,7 +10,7 @@
 
 
 @interface MainViewController : UIViewController {
-    IBOutlet UILabel *lblTest;
+    IBOutlet UILabel *lblGPS;
 }
 
 @end
