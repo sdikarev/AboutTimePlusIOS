@@ -21,6 +21,25 @@
 		8672EB9713B4607400E64637 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9513B4607400E64637 /* MainWindow_iPad.xib */; };
 		8672EBA013B460F600E64637 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB9E13B460F600E64637 /* MainViewController.m */; };
 		8672EBA113B460F600E64637 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB9F13B460F600E64637 /* MainViewController.xib */; };
+		E71F3E1F13B7314300291279 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E1613B7314300291279 /* Reachability.m */; };
+		E71F3E2013B7314300291279 /* networking.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E1813B7314300291279 /* networking.m */; };
+		E71F3E2113B7314300291279 /* NSStreamAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E1A13B7314300291279 /* NSStreamAdditions.m */; };
+		E71F3E2213B7314300291279 /* SyncCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E1C13B7314300291279 /* SyncCenter.m */; };
+		E71F3E2313B7314300291279 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E1E13B7314300291279 /* MyCLController.m */; };
+		E71F3E3813B7315800291279 /* STDeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E2513B7315800291279 /* STDeviceDetection.m */; };
+		E71F3E3913B7315800291279 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E2613B7315800291279 /* UIImage+Alpha.m */; };
+		E71F3E3A13B7315800291279 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E2713B7315800291279 /* UIImage+RoundedCorner.m */; };
+		E71F3E3B13B7315800291279 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E2B13B7315800291279 /* UIImage+Resize.m */; };
+		E71F3E3C13B7315800291279 /* CommandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E2D13B7315800291279 /* CommandHeader.m */; };
+		E71F3E3D13B7315800291279 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E2F13B7315800291279 /* AppSettings.m */; };
+		E71F3E3E13B7315800291279 /* EmployeeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E3113B7315800291279 /* EmployeeManager.m */; };
+		E71F3E3F13B7315800291279 /* ClockState.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E3313B7315800291279 /* ClockState.m */; };
+		E71F3E4013B7315800291279 /* CustomerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E3513B7315800291279 /* CustomerManager.m */; };
+		E71F3E4113B7315800291279 /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E3713B7315800291279 /* UIImageAdditions.m */; };
+		E71F3E4313B7319D00291279 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F3E4213B7319D00291279 /* CoreLocation.framework */; };
+		E71F3E4513B731B900291279 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F3E4413B731B900291279 /* CFNetwork.framework */; };
+		E71F3E4913B7325800291279 /* TimeRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3E4813B7325800291279 /* TimeRecordManager.m */; };
+		E71F3E4B13B732B400291279 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F3E4A13B732B400291279 /* SystemConfiguration.framework */; };
 		E7372DE713B727D300CC7D96 /* MainViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */; };
 		E7372DFF13B72DF900CC7D96 /* iFieldClock.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */; };
 		E7372E0213B72FC900CC7D96 /* FieldNoteBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E7372E0113B72FC800CC7D96 /* FieldNoteBackup.m */; };
@@ -69,6 +88,41 @@
 		8672EB9D13B460F600E64637 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		8672EB9E13B460F600E64637 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		8672EB9F13B460F600E64637 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		E71F3E1513B7314300291279 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E71F3E1613B7314300291279 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E71F3E1713B7314300291279 /* networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networking.h; sourceTree = "<group>"; };
+		E71F3E1813B7314300291279 /* networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = networking.m; sourceTree = "<group>"; };
+		E71F3E1913B7314300291279 /* NSStreamAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStreamAdditions.h; sourceTree = "<group>"; };
+		E71F3E1A13B7314300291279 /* NSStreamAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStreamAdditions.m; sourceTree = "<group>"; };
+		E71F3E1B13B7314300291279 /* SyncCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncCenter.h; sourceTree = "<group>"; };
+		E71F3E1C13B7314300291279 /* SyncCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncCenter.m; sourceTree = "<group>"; };
+		E71F3E1D13B7314300291279 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
+		E71F3E1E13B7314300291279 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
+		E71F3E2413B7315800291279 /* STDeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDeviceDetection.h; sourceTree = "<group>"; };
+		E71F3E2513B7315800291279 /* STDeviceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDeviceDetection.m; sourceTree = "<group>"; };
+		E71F3E2613B7315800291279 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		E71F3E2713B7315800291279 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		E71F3E2813B7315800291279 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		E71F3E2913B7315800291279 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		E71F3E2A13B7315800291279 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		E71F3E2B13B7315800291279 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		E71F3E2C13B7315800291279 /* CommandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandHeader.h; sourceTree = "<group>"; };
+		E71F3E2D13B7315800291279 /* CommandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandHeader.m; sourceTree = "<group>"; };
+		E71F3E2E13B7315800291279 /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		E71F3E2F13B7315800291279 /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		E71F3E3013B7315800291279 /* EmployeeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeManager.h; sourceTree = "<group>"; };
+		E71F3E3113B7315800291279 /* EmployeeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeManager.m; sourceTree = "<group>"; };
+		E71F3E3213B7315800291279 /* ClockState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockState.h; sourceTree = "<group>"; };
+		E71F3E3313B7315800291279 /* ClockState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockState.m; sourceTree = "<group>"; };
+		E71F3E3413B7315800291279 /* CustomerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerManager.h; sourceTree = "<group>"; };
+		E71F3E3513B7315800291279 /* CustomerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerManager.m; sourceTree = "<group>"; };
+		E71F3E3613B7315800291279 /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAdditions.h; sourceTree = "<group>"; };
+		E71F3E3713B7315800291279 /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
+		E71F3E4213B7319D00291279 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E71F3E4413B731B900291279 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E71F3E4713B7325800291279 /* TimeRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecordManager.h; sourceTree = "<group>"; };
+		E71F3E4813B7325800291279 /* TimeRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecordManager.m; sourceTree = "<group>"; };
+		E71F3E4A13B732B400291279 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllerIPAD.xib; sourceTree = "<group>"; };
 		E7372DEF13B729F600CC7D96 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFieldClock.xcdatamodel; sourceTree = "<group>"; };
@@ -123,6 +177,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71F3E4B13B732B400291279 /* SystemConfiguration.framework in Frameworks */,
+				E71F3E4513B731B900291279 /* CFNetwork.framework in Frameworks */,
+				E71F3E4313B7319D00291279 /* CoreLocation.framework in Frameworks */,
 				8672EB7413B4607400E64637 /* UIKit.framework in Frameworks */,
 				8672EB7613B4607400E64637 /* Foundation.framework in Frameworks */,
 				8672EB7813B4607400E64637 /* CoreGraphics.framework in Frameworks */,
@@ -136,6 +193,9 @@
 		8672EB6413B4607400E64637 = {
 			isa = PBXGroup;
 			children = (
+				E71F3E4A13B732B400291279 /* SystemConfiguration.framework */,
+				E71F3E4413B731B900291279 /* CFNetwork.framework */,
+				E71F3E4213B7319D00291279 /* CoreLocation.framework */,
 				8672EB7B13B4607400E64637 /* AboutTimePlus */,
 				8672EB7213B4607400E64637 /* Frameworks */,
 				8672EB7013B4607400E64637 /* Products */,
@@ -164,6 +224,8 @@
 		8672EB7B13B4607400E64637 /* AboutTimePlus */ = {
 			isa = PBXGroup;
 			children = (
+				E71F3E4613B7324600291279 /* TimeRecords */,
+				E71F3E0613B7311400291279 /* IO */,
 				E7372DE813B729C200CC7D96 /* Helpers */,
 				86AF4B9413B462B400B86EBF /* MainScreen */,
 				8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */,
@@ -218,9 +280,55 @@
 			name = MainScreen;
 			sourceTree = "<group>";
 		};
+		E71F3E0613B7311400291279 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				E71F3E1513B7314300291279 /* Reachability.h */,
+				E71F3E1613B7314300291279 /* Reachability.m */,
+				E71F3E1713B7314300291279 /* networking.h */,
+				E71F3E1813B7314300291279 /* networking.m */,
+				E71F3E1913B7314300291279 /* NSStreamAdditions.h */,
+				E71F3E1A13B7314300291279 /* NSStreamAdditions.m */,
+				E71F3E1B13B7314300291279 /* SyncCenter.h */,
+				E71F3E1C13B7314300291279 /* SyncCenter.m */,
+				E71F3E1D13B7314300291279 /* MyCLController.h */,
+				E71F3E1E13B7314300291279 /* MyCLController.m */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		E71F3E4613B7324600291279 /* TimeRecords */ = {
+			isa = PBXGroup;
+			children = (
+				E71F3E4713B7325800291279 /* TimeRecordManager.h */,
+				E71F3E4813B7325800291279 /* TimeRecordManager.m */,
+			);
+			name = TimeRecords;
+			sourceTree = "<group>";
+		};
 		E7372DE813B729C200CC7D96 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E71F3E2413B7315800291279 /* STDeviceDetection.h */,
+				E71F3E2513B7315800291279 /* STDeviceDetection.m */,
+				E71F3E2613B7315800291279 /* UIImage+Alpha.m */,
+				E71F3E2713B7315800291279 /* UIImage+RoundedCorner.m */,
+				E71F3E2813B7315800291279 /* UIImage+RoundedCorner.h */,
+				E71F3E2913B7315800291279 /* UIImage+Alpha.h */,
+				E71F3E2A13B7315800291279 /* UIImage+Resize.h */,
+				E71F3E2B13B7315800291279 /* UIImage+Resize.m */,
+				E71F3E2C13B7315800291279 /* CommandHeader.h */,
+				E71F3E2D13B7315800291279 /* CommandHeader.m */,
+				E71F3E2E13B7315800291279 /* AppSettings.h */,
+				E71F3E2F13B7315800291279 /* AppSettings.m */,
+				E71F3E3013B7315800291279 /* EmployeeManager.h */,
+				E71F3E3113B7315800291279 /* EmployeeManager.m */,
+				E71F3E3213B7315800291279 /* ClockState.h */,
+				E71F3E3313B7315800291279 /* ClockState.m */,
+				E71F3E3413B7315800291279 /* CustomerManager.h */,
+				E71F3E3513B7315800291279 /* CustomerManager.m */,
+				E71F3E3613B7315800291279 /* UIImageAdditions.h */,
+				E71F3E3713B7315800291279 /* UIImageAdditions.m */,
 				E7372DEF13B729F600CC7D96 /* Defines.h */,
 			);
 			name = Helpers;
@@ -370,6 +478,22 @@
 				E7372E3B13B72FCD00CC7D96 /* MealExpense.m in Sources */,
 				E7372E3E13B72FCD00CC7D96 /* Company.m in Sources */,
 				E7372E4113B72FCD00CC7D96 /* Employee.m in Sources */,
+				E71F3E1F13B7314300291279 /* Reachability.m in Sources */,
+				E71F3E2013B7314300291279 /* networking.m in Sources */,
+				E71F3E2113B7314300291279 /* NSStreamAdditions.m in Sources */,
+				E71F3E2213B7314300291279 /* SyncCenter.m in Sources */,
+				E71F3E2313B7314300291279 /* MyCLController.m in Sources */,
+				E71F3E3813B7315800291279 /* STDeviceDetection.m in Sources */,
+				E71F3E3913B7315800291279 /* UIImage+Alpha.m in Sources */,
+				E71F3E3A13B7315800291279 /* UIImage+RoundedCorner.m in Sources */,
+				E71F3E3B13B7315800291279 /* UIImage+Resize.m in Sources */,
+				E71F3E3C13B7315800291279 /* CommandHeader.m in Sources */,
+				E71F3E3D13B7315800291279 /* AppSettings.m in Sources */,
+				E71F3E3E13B7315800291279 /* EmployeeManager.m in Sources */,
+				E71F3E3F13B7315800291279 /* ClockState.m in Sources */,
+				E71F3E4013B7315800291279 /* CustomerManager.m in Sources */,
+				E71F3E4113B7315800291279 /* UIImageAdditions.m in Sources */,
+				E71F3E4913B7325800291279 /* TimeRecordManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
