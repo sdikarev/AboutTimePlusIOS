@@ -13,4 +13,6 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 	#import <CoreLocation/CoreLocation.h>
+    #import <AudioToolbox/AudioToolbox.h>
+    #import <AVFoundation/AVFoundation.h>
 #endif
