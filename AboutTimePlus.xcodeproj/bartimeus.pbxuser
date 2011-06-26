@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	8672EB6613B4607400E64637 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E70EC29313B7277000129FCA /* AboutTimePlus */;
+		activeTarget = 8672EB6E13B4607400E64637 /* AboutTimePlus */;
+		codeSenseManager = E70EC2AD13B7277400129FCA /* Code sense */;
+		executables = (
+			E70EC29313B7277000129FCA /* AboutTimePlus */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 330770288;
+			PBXWorkspaceStateSaveDate = 330770288;
+		};
+		sourceControlManager = E70EC2AC13B7277400129FCA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8672EB6E13B4607400E64637 /* AboutTimePlus */ = {
+		activeExec = 0;
+		executables = (
+			E70EC29313B7277000129FCA /* AboutTimePlus */,
+		);
+	};
+	E70EC29313B7277000129FCA /* AboutTimePlus */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AboutTimePlus;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E70EC2AC13B7277400129FCA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E70EC2AD13B7277400129FCA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
