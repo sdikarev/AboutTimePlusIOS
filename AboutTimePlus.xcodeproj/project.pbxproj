@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865CC6D513BDDF4800799E54 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 865CC6D313BDDF4800799E54 /* Model.xcdatamodeld */; };
+		865CC6D813BDDF7A00799E54 /* SystemData.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC6D713BDDF7A00799E54 /* SystemData.m */; };
+		865CC70E13BDE1D900799E54 /* FeedbackAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC70D13BDE1D900799E54 /* FeedbackAnswer.m */; };
+		865CC71113BDE1D900799E54 /* EmployeeCostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC71013BDE1D900799E54 /* EmployeeCostCode.m */; };
+		865CC71413BDE1D900799E54 /* EquipmentUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC71313BDE1D900799E54 /* EquipmentUse.m */; };
+		865CC71713BDE1D900799E54 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC71613BDE1D900799E54 /* Employee.m */; };
+		865CC71A13BDE1D900799E54 /* JobPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC71913BDE1D900799E54 /* JobPhoto.m */; };
+		865CC71D13BDE1D900799E54 /* FieldNoteBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC71C13BDE1D900799E54 /* FieldNoteBackup.m */; };
+		865CC72013BDE1DA00799E54 /* CustomerCostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC71F13BDE1DA00799E54 /* CustomerCostCode.m */; };
+		865CC72313BDE1DA00799E54 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC72213BDE1DA00799E54 /* Customer.m */; };
+		865CC72613BDE1DA00799E54 /* FieldNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC72513BDE1DA00799E54 /* FieldNote.m */; };
+		865CC72913BDE1DA00799E54 /* FeedbackQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC72813BDE1DA00799E54 /* FeedbackQuestion.m */; };
+		865CC72C13BDE1DA00799E54 /* CustomList.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC72B13BDE1DA00799E54 /* CustomList.m */; };
+		865CC72F13BDE1DA00799E54 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC72E13BDE1DA00799E54 /* Company.m */; };
+		865CC73213BDE1DA00799E54 /* TimeRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC73113BDE1DA00799E54 /* TimeRecording.m */; };
+		865CC73513BDE1DA00799E54 /* CustomerEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC73413BDE1DA00799E54 /* CustomerEmployee.m */; };
+		865CC73813BDE1DA00799E54 /* CostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC73713BDE1DA00799E54 /* CostCode.m */; };
+		865CC73B13BDE1DA00799E54 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC73A13BDE1DA00799E54 /* Clock.m */; };
+		865CC73E13BDE1DA00799E54 /* FeedbackAnswerBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC73D13BDE1DA00799E54 /* FeedbackAnswerBackup.m */; };
+		865CC74113BDE1DA00799E54 /* MealExpense.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC74013BDE1DA00799E54 /* MealExpense.m */; };
+		865CC74413BDE1DA00799E54 /* MealExpenseBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC74313BDE1DA00799E54 /* MealExpenseBackup.m */; };
+		865CC74713BDE1DA00799E54 /* TimeRecordingBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC74613BDE1DA00799E54 /* TimeRecordingBackup.m */; };
+		865CC74A13BDE1DA00799E54 /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = 865CC74913BDE1DA00799E54 /* Equipment.m */; };
 		8672EB7413B4607400E64637 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7313B4607400E64637 /* UIKit.framework */; };
 		8672EB7613B4607400E64637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7513B4607400E64637 /* Foundation.framework */; };
 		8672EB7813B4607400E64637 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672EB7713B4607400E64637 /* CoreGraphics.framework */; };
@@ -14,7 +37,6 @@
 		8672EB8013B4607400E64637 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB7E13B4607400E64637 /* InfoPlist.strings */; };
 		8672EB8313B4607400E64637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8213B4607400E64637 /* main.m */; };
 		8672EB8613B4607400E64637 /* AboutTimePlusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */; };
-		8672EB8913B4607400E64637 /* AboutTimePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */; };
 		8672EB8D13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB8C13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m */; };
 		8672EB9013B4607400E64637 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8672EB8E13B4607400E64637 /* MainWindow_iPhone.xib */; };
 		8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672EB9313B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m */; };
@@ -204,33 +226,55 @@
 		E71F3F9113B7373100291279 /* zeroBtnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = E71F3F7713B7373100291279 /* zeroBtnWhite.png */; };
 		E71F3F9313B73EFC00291279 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F3F9213B73EFC00291279 /* AudioToolbox.framework */; };
 		E71F3F9513B73F0600291279 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F3F9413B73F0600291279 /* AVFoundation.framework */; };
-		E71F3F9813B7438600291279 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3F9713B7438600291279 /* Employee.m */; };
-		E71F3F9B13B7438600291279 /* JobPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3F9A13B7438600291279 /* JobPhoto.m */; };
-		E71F3F9E13B7438600291279 /* CustomList.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3F9D13B7438600291279 /* CustomList.m */; };
-		E71F3FA113B7438600291279 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FA013B7438600291279 /* Company.m */; };
-		E71F3FA413B7438600291279 /* CustomerEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FA313B7438600291279 /* CustomerEmployee.m */; };
-		E71F3FA713B7438600291279 /* FeedbackAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FA613B7438600291279 /* FeedbackAnswer.m */; };
-		E71F3FAA13B7438600291279 /* FieldNoteBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FA913B7438600291279 /* FieldNoteBackup.m */; };
-		E71F3FAD13B7438600291279 /* CustomerCostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FAC13B7438600291279 /* CustomerCostCode.m */; };
-		E71F3FB013B7438600291279 /* EmployeeCostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FAF13B7438600291279 /* EmployeeCostCode.m */; };
-		E71F3FB313B7438600291279 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FB213B7438600291279 /* Customer.m */; };
-		E71F3FB613B7438600291279 /* FieldNote.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FB513B7438600291279 /* FieldNote.m */; };
-		E71F3FB913B7438600291279 /* FeedbackAnswerBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FB813B7438600291279 /* FeedbackAnswerBackup.m */; };
-		E71F3FBC13B7438600291279 /* MealExpenseBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FBB13B7438600291279 /* MealExpenseBackup.m */; };
-		E71F3FBF13B7438600291279 /* SystemData.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FBE13B7438600291279 /* SystemData.m */; };
-		E71F3FC213B7438700291279 /* FeedbackQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FC113B7438700291279 /* FeedbackQuestion.m */; };
-		E71F3FC513B7438700291279 /* EquipmentUse.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FC413B7438700291279 /* EquipmentUse.m */; };
-		E71F3FC813B7438700291279 /* CostCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FC713B7438700291279 /* CostCode.m */; };
-		E71F3FCB13B7438700291279 /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FCA13B7438700291279 /* Equipment.m */; };
-		E71F3FCE13B7438700291279 /* TimeRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FCD13B7438700291279 /* TimeRecording.m */; };
-		E71F3FD113B7438700291279 /* TimeRecordingBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FD013B7438700291279 /* TimeRecordingBackup.m */; };
-		E71F3FD413B7438700291279 /* MealExpense.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FD313B7438700291279 /* MealExpense.m */; };
-		E71F3FD713B7438700291279 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3FD613B7438700291279 /* Clock.m */; };
 		E7372DE713B727D300CC7D96 /* MainViewControllerIPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */; };
-		E7372DFF13B72DF900CC7D96 /* iFieldClock.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		865CC6D413BDDF4800799E54 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		865CC6D613BDDF7A00799E54 /* SystemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemData.h; sourceTree = "<group>"; };
+		865CC6D713BDDF7A00799E54 /* SystemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemData.m; sourceTree = "<group>"; };
+		865CC70C13BDE1D900799E54 /* FeedbackAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackAnswer.h; sourceTree = "<group>"; };
+		865CC70D13BDE1D900799E54 /* FeedbackAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackAnswer.m; sourceTree = "<group>"; };
+		865CC70F13BDE1D900799E54 /* EmployeeCostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCostCode.h; sourceTree = "<group>"; };
+		865CC71013BDE1D900799E54 /* EmployeeCostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCostCode.m; sourceTree = "<group>"; };
+		865CC71213BDE1D900799E54 /* EquipmentUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentUse.h; sourceTree = "<group>"; };
+		865CC71313BDE1D900799E54 /* EquipmentUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentUse.m; sourceTree = "<group>"; };
+		865CC71513BDE1D900799E54 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		865CC71613BDE1D900799E54 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		865CC71813BDE1D900799E54 /* JobPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobPhoto.h; sourceTree = "<group>"; };
+		865CC71913BDE1D900799E54 /* JobPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobPhoto.m; sourceTree = "<group>"; };
+		865CC71B13BDE1D900799E54 /* FieldNoteBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNoteBackup.h; sourceTree = "<group>"; };
+		865CC71C13BDE1D900799E54 /* FieldNoteBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNoteBackup.m; sourceTree = "<group>"; };
+		865CC71E13BDE1DA00799E54 /* CustomerCostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCostCode.h; sourceTree = "<group>"; };
+		865CC71F13BDE1DA00799E54 /* CustomerCostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCostCode.m; sourceTree = "<group>"; };
+		865CC72113BDE1DA00799E54 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		865CC72213BDE1DA00799E54 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		865CC72413BDE1DA00799E54 /* FieldNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNote.h; sourceTree = "<group>"; };
+		865CC72513BDE1DA00799E54 /* FieldNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNote.m; sourceTree = "<group>"; };
+		865CC72713BDE1DA00799E54 /* FeedbackQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackQuestion.h; sourceTree = "<group>"; };
+		865CC72813BDE1DA00799E54 /* FeedbackQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackQuestion.m; sourceTree = "<group>"; };
+		865CC72A13BDE1DA00799E54 /* CustomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomList.h; sourceTree = "<group>"; };
+		865CC72B13BDE1DA00799E54 /* CustomList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomList.m; sourceTree = "<group>"; };
+		865CC72D13BDE1DA00799E54 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		865CC72E13BDE1DA00799E54 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		865CC73013BDE1DA00799E54 /* TimeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecording.h; sourceTree = "<group>"; };
+		865CC73113BDE1DA00799E54 /* TimeRecording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecording.m; sourceTree = "<group>"; };
+		865CC73313BDE1DA00799E54 /* CustomerEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerEmployee.h; sourceTree = "<group>"; };
+		865CC73413BDE1DA00799E54 /* CustomerEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerEmployee.m; sourceTree = "<group>"; };
+		865CC73613BDE1DA00799E54 /* CostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostCode.h; sourceTree = "<group>"; };
+		865CC73713BDE1DA00799E54 /* CostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostCode.m; sourceTree = "<group>"; };
+		865CC73913BDE1DA00799E54 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		865CC73A13BDE1DA00799E54 /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		865CC73C13BDE1DA00799E54 /* FeedbackAnswerBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackAnswerBackup.h; sourceTree = "<group>"; };
+		865CC73D13BDE1DA00799E54 /* FeedbackAnswerBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackAnswerBackup.m; sourceTree = "<group>"; };
+		865CC73F13BDE1DA00799E54 /* MealExpense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealExpense.h; sourceTree = "<group>"; };
+		865CC74013BDE1DA00799E54 /* MealExpense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealExpense.m; sourceTree = "<group>"; };
+		865CC74213BDE1DA00799E54 /* MealExpenseBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealExpenseBackup.h; sourceTree = "<group>"; };
+		865CC74313BDE1DA00799E54 /* MealExpenseBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealExpenseBackup.m; sourceTree = "<group>"; };
+		865CC74513BDE1DA00799E54 /* TimeRecordingBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecordingBackup.h; sourceTree = "<group>"; };
+		865CC74613BDE1DA00799E54 /* TimeRecordingBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecordingBackup.m; sourceTree = "<group>"; };
+		865CC74813BDE1DA00799E54 /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		865CC74913BDE1DA00799E54 /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
 		8672EB6F13B4607400E64637 /* AboutTimePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutTimePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8672EB7313B4607400E64637 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8672EB7513B4607400E64637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -242,7 +286,6 @@
 		8672EB8213B4607400E64637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8672EB8413B4607400E64637 /* AboutTimePlusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutTimePlusAppDelegate.h; sourceTree = "<group>"; };
 		8672EB8513B4607400E64637 /* AboutTimePlusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutTimePlusAppDelegate.m; sourceTree = "<group>"; };
-		8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AboutTimePlus.xcdatamodel; sourceTree = "<group>"; };
 		8672EB8B13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutTimePlusAppDelegate_iPhone.h; path = iPhone/AboutTimePlusAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		8672EB8C13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AboutTimePlusAppDelegate_iPhone.m; path = iPhone/AboutTimePlusAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		8672EB8F13B4607400E64637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
@@ -451,53 +494,8 @@
 		E71F3F7713B7373100291279 /* zeroBtnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zeroBtnWhite.png; sourceTree = "<group>"; };
 		E71F3F9213B73EFC00291279 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E71F3F9413B73F0600291279 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		E71F3F9613B7438600291279 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		E71F3F9713B7438600291279 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
-		E71F3F9913B7438600291279 /* JobPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobPhoto.h; sourceTree = "<group>"; };
-		E71F3F9A13B7438600291279 /* JobPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobPhoto.m; sourceTree = "<group>"; };
-		E71F3F9C13B7438600291279 /* CustomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomList.h; sourceTree = "<group>"; };
-		E71F3F9D13B7438600291279 /* CustomList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomList.m; sourceTree = "<group>"; };
-		E71F3F9F13B7438600291279 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
-		E71F3FA013B7438600291279 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
-		E71F3FA213B7438600291279 /* CustomerEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerEmployee.h; sourceTree = "<group>"; };
-		E71F3FA313B7438600291279 /* CustomerEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerEmployee.m; sourceTree = "<group>"; };
-		E71F3FA513B7438600291279 /* FeedbackAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackAnswer.h; sourceTree = "<group>"; };
-		E71F3FA613B7438600291279 /* FeedbackAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackAnswer.m; sourceTree = "<group>"; };
-		E71F3FA813B7438600291279 /* FieldNoteBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNoteBackup.h; sourceTree = "<group>"; };
-		E71F3FA913B7438600291279 /* FieldNoteBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNoteBackup.m; sourceTree = "<group>"; };
-		E71F3FAB13B7438600291279 /* CustomerCostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCostCode.h; sourceTree = "<group>"; };
-		E71F3FAC13B7438600291279 /* CustomerCostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCostCode.m; sourceTree = "<group>"; };
-		E71F3FAE13B7438600291279 /* EmployeeCostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCostCode.h; sourceTree = "<group>"; };
-		E71F3FAF13B7438600291279 /* EmployeeCostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCostCode.m; sourceTree = "<group>"; };
-		E71F3FB113B7438600291279 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
-		E71F3FB213B7438600291279 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
-		E71F3FB413B7438600291279 /* FieldNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldNote.h; sourceTree = "<group>"; };
-		E71F3FB513B7438600291279 /* FieldNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldNote.m; sourceTree = "<group>"; };
-		E71F3FB713B7438600291279 /* FeedbackAnswerBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackAnswerBackup.h; sourceTree = "<group>"; };
-		E71F3FB813B7438600291279 /* FeedbackAnswerBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackAnswerBackup.m; sourceTree = "<group>"; };
-		E71F3FBA13B7438600291279 /* MealExpenseBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealExpenseBackup.h; sourceTree = "<group>"; };
-		E71F3FBB13B7438600291279 /* MealExpenseBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealExpenseBackup.m; sourceTree = "<group>"; };
-		E71F3FBD13B7438600291279 /* SystemData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemData.h; sourceTree = "<group>"; };
-		E71F3FBE13B7438600291279 /* SystemData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemData.m; sourceTree = "<group>"; };
-		E71F3FC013B7438600291279 /* FeedbackQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackQuestion.h; sourceTree = "<group>"; };
-		E71F3FC113B7438700291279 /* FeedbackQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackQuestion.m; sourceTree = "<group>"; };
-		E71F3FC313B7438700291279 /* EquipmentUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentUse.h; sourceTree = "<group>"; };
-		E71F3FC413B7438700291279 /* EquipmentUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentUse.m; sourceTree = "<group>"; };
-		E71F3FC613B7438700291279 /* CostCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostCode.h; sourceTree = "<group>"; };
-		E71F3FC713B7438700291279 /* CostCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostCode.m; sourceTree = "<group>"; };
-		E71F3FC913B7438700291279 /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
-		E71F3FCA13B7438700291279 /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
-		E71F3FCC13B7438700291279 /* TimeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecording.h; sourceTree = "<group>"; };
-		E71F3FCD13B7438700291279 /* TimeRecording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecording.m; sourceTree = "<group>"; };
-		E71F3FCF13B7438700291279 /* TimeRecordingBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRecordingBackup.h; sourceTree = "<group>"; };
-		E71F3FD013B7438700291279 /* TimeRecordingBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRecordingBackup.m; sourceTree = "<group>"; };
-		E71F3FD213B7438700291279 /* MealExpense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealExpense.h; sourceTree = "<group>"; };
-		E71F3FD313B7438700291279 /* MealExpense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealExpense.m; sourceTree = "<group>"; };
-		E71F3FD513B7438700291279 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
-		E71F3FD613B7438700291279 /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
 		E7372DE613B727D300CC7D96 /* MainViewControllerIPAD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllerIPAD.xib; sourceTree = "<group>"; };
 		E7372DEF13B729F600CC7D96 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
-		E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFieldClock.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -847,52 +845,51 @@
 		E7C1E64613B7307B00ECCE9E /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */,
-				E71F3FD513B7438700291279 /* Clock.h */,
-				E71F3FD613B7438700291279 /* Clock.m */,
-				E71F3FD213B7438700291279 /* MealExpense.h */,
-				E71F3FD313B7438700291279 /* MealExpense.m */,
-				E71F3FCF13B7438700291279 /* TimeRecordingBackup.h */,
-				E71F3FD013B7438700291279 /* TimeRecordingBackup.m */,
-				E71F3FCC13B7438700291279 /* TimeRecording.h */,
-				E71F3FCD13B7438700291279 /* TimeRecording.m */,
-				E71F3FC913B7438700291279 /* Equipment.h */,
-				E71F3FCA13B7438700291279 /* Equipment.m */,
-				E71F3FC613B7438700291279 /* CostCode.h */,
-				E71F3FC713B7438700291279 /* CostCode.m */,
-				E71F3FC313B7438700291279 /* EquipmentUse.h */,
-				E71F3FC413B7438700291279 /* EquipmentUse.m */,
-				E71F3FC013B7438600291279 /* FeedbackQuestion.h */,
-				E71F3FC113B7438700291279 /* FeedbackQuestion.m */,
-				E71F3FBD13B7438600291279 /* SystemData.h */,
-				E71F3FBE13B7438600291279 /* SystemData.m */,
-				E71F3FBA13B7438600291279 /* MealExpenseBackup.h */,
-				E71F3FBB13B7438600291279 /* MealExpenseBackup.m */,
-				E71F3FB713B7438600291279 /* FeedbackAnswerBackup.h */,
-				E71F3FB813B7438600291279 /* FeedbackAnswerBackup.m */,
-				E71F3FB413B7438600291279 /* FieldNote.h */,
-				E71F3FB513B7438600291279 /* FieldNote.m */,
-				E71F3FB113B7438600291279 /* Customer.h */,
-				E71F3FB213B7438600291279 /* Customer.m */,
-				E71F3FAE13B7438600291279 /* EmployeeCostCode.h */,
-				E71F3FAF13B7438600291279 /* EmployeeCostCode.m */,
-				E71F3FAB13B7438600291279 /* CustomerCostCode.h */,
-				E71F3FAC13B7438600291279 /* CustomerCostCode.m */,
-				E71F3FA813B7438600291279 /* FieldNoteBackup.h */,
-				E71F3FA913B7438600291279 /* FieldNoteBackup.m */,
-				E71F3FA513B7438600291279 /* FeedbackAnswer.h */,
-				E71F3FA613B7438600291279 /* FeedbackAnswer.m */,
-				E71F3FA213B7438600291279 /* CustomerEmployee.h */,
-				E71F3FA313B7438600291279 /* CustomerEmployee.m */,
-				E71F3F9F13B7438600291279 /* Company.h */,
-				E71F3FA013B7438600291279 /* Company.m */,
-				E71F3F9C13B7438600291279 /* CustomList.h */,
-				E71F3F9D13B7438600291279 /* CustomList.m */,
-				E71F3F9913B7438600291279 /* JobPhoto.h */,
-				E71F3F9A13B7438600291279 /* JobPhoto.m */,
-				E71F3F9613B7438600291279 /* Employee.h */,
-				E71F3F9713B7438600291279 /* Employee.m */,
-				E7372DFE13B72DF900CC7D96 /* iFieldClock.xcdatamodel */,
+				865CC6D313BDDF4800799E54 /* Model.xcdatamodeld */,
+				865CC74813BDE1DA00799E54 /* Equipment.h */,
+				865CC74913BDE1DA00799E54 /* Equipment.m */,
+				865CC74513BDE1DA00799E54 /* TimeRecordingBackup.h */,
+				865CC74613BDE1DA00799E54 /* TimeRecordingBackup.m */,
+				865CC74213BDE1DA00799E54 /* MealExpenseBackup.h */,
+				865CC74313BDE1DA00799E54 /* MealExpenseBackup.m */,
+				865CC73F13BDE1DA00799E54 /* MealExpense.h */,
+				865CC74013BDE1DA00799E54 /* MealExpense.m */,
+				865CC73C13BDE1DA00799E54 /* FeedbackAnswerBackup.h */,
+				865CC73D13BDE1DA00799E54 /* FeedbackAnswerBackup.m */,
+				865CC73913BDE1DA00799E54 /* Clock.h */,
+				865CC73A13BDE1DA00799E54 /* Clock.m */,
+				865CC73613BDE1DA00799E54 /* CostCode.h */,
+				865CC73713BDE1DA00799E54 /* CostCode.m */,
+				865CC73313BDE1DA00799E54 /* CustomerEmployee.h */,
+				865CC73413BDE1DA00799E54 /* CustomerEmployee.m */,
+				865CC73013BDE1DA00799E54 /* TimeRecording.h */,
+				865CC73113BDE1DA00799E54 /* TimeRecording.m */,
+				865CC72D13BDE1DA00799E54 /* Company.h */,
+				865CC72E13BDE1DA00799E54 /* Company.m */,
+				865CC72A13BDE1DA00799E54 /* CustomList.h */,
+				865CC72B13BDE1DA00799E54 /* CustomList.m */,
+				865CC72713BDE1DA00799E54 /* FeedbackQuestion.h */,
+				865CC72813BDE1DA00799E54 /* FeedbackQuestion.m */,
+				865CC72413BDE1DA00799E54 /* FieldNote.h */,
+				865CC72513BDE1DA00799E54 /* FieldNote.m */,
+				865CC72113BDE1DA00799E54 /* Customer.h */,
+				865CC72213BDE1DA00799E54 /* Customer.m */,
+				865CC71E13BDE1DA00799E54 /* CustomerCostCode.h */,
+				865CC71F13BDE1DA00799E54 /* CustomerCostCode.m */,
+				865CC71B13BDE1D900799E54 /* FieldNoteBackup.h */,
+				865CC71C13BDE1D900799E54 /* FieldNoteBackup.m */,
+				865CC71813BDE1D900799E54 /* JobPhoto.h */,
+				865CC71913BDE1D900799E54 /* JobPhoto.m */,
+				865CC71513BDE1D900799E54 /* Employee.h */,
+				865CC71613BDE1D900799E54 /* Employee.m */,
+				865CC71213BDE1D900799E54 /* EquipmentUse.h */,
+				865CC71313BDE1D900799E54 /* EquipmentUse.m */,
+				865CC70F13BDE1D900799E54 /* EmployeeCostCode.h */,
+				865CC71013BDE1D900799E54 /* EmployeeCostCode.m */,
+				865CC70C13BDE1D900799E54 /* FeedbackAnswer.h */,
+				865CC70D13BDE1D900799E54 /* FeedbackAnswer.m */,
+				865CC6D613BDDF7A00799E54 /* SystemData.h */,
+				865CC6D713BDDF7A00799E54 /* SystemData.m */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -1123,11 +1120,9 @@
 			files = (
 				8672EB8313B4607400E64637 /* main.m in Sources */,
 				8672EB8613B4607400E64637 /* AboutTimePlusAppDelegate.m in Sources */,
-				8672EB8913B4607400E64637 /* AboutTimePlus.xcdatamodeld in Sources */,
 				8672EB8D13B4607400E64637 /* AboutTimePlusAppDelegate_iPhone.m in Sources */,
 				8672EB9413B4607400E64637 /* AboutTimePlusAppDelegate_iPad.m in Sources */,
 				8672EBA013B460F600E64637 /* MainViewController.m in Sources */,
-				E7372DFF13B72DF900CC7D96 /* iFieldClock.xcdatamodel in Sources */,
 				E71F3E1F13B7314300291279 /* Reachability.m in Sources */,
 				E71F3E2013B7314300291279 /* networking.m in Sources */,
 				E71F3E2113B7314300291279 /* NSStreamAdditions.m in Sources */,
@@ -1144,28 +1139,29 @@
 				E71F3E4013B7315800291279 /* CustomerManager.m in Sources */,
 				E71F3E4113B7315800291279 /* UIImageAdditions.m in Sources */,
 				E71F3E4913B7325800291279 /* TimeRecordManager.m in Sources */,
-				E71F3F9813B7438600291279 /* Employee.m in Sources */,
-				E71F3F9B13B7438600291279 /* JobPhoto.m in Sources */,
-				E71F3F9E13B7438600291279 /* CustomList.m in Sources */,
-				E71F3FA113B7438600291279 /* Company.m in Sources */,
-				E71F3FA413B7438600291279 /* CustomerEmployee.m in Sources */,
-				E71F3FA713B7438600291279 /* FeedbackAnswer.m in Sources */,
-				E71F3FAA13B7438600291279 /* FieldNoteBackup.m in Sources */,
-				E71F3FAD13B7438600291279 /* CustomerCostCode.m in Sources */,
-				E71F3FB013B7438600291279 /* EmployeeCostCode.m in Sources */,
-				E71F3FB313B7438600291279 /* Customer.m in Sources */,
-				E71F3FB613B7438600291279 /* FieldNote.m in Sources */,
-				E71F3FB913B7438600291279 /* FeedbackAnswerBackup.m in Sources */,
-				E71F3FBC13B7438600291279 /* MealExpenseBackup.m in Sources */,
-				E71F3FBF13B7438600291279 /* SystemData.m in Sources */,
-				E71F3FC213B7438700291279 /* FeedbackQuestion.m in Sources */,
-				E71F3FC513B7438700291279 /* EquipmentUse.m in Sources */,
-				E71F3FC813B7438700291279 /* CostCode.m in Sources */,
-				E71F3FCB13B7438700291279 /* Equipment.m in Sources */,
-				E71F3FCE13B7438700291279 /* TimeRecording.m in Sources */,
-				E71F3FD113B7438700291279 /* TimeRecordingBackup.m in Sources */,
-				E71F3FD413B7438700291279 /* MealExpense.m in Sources */,
-				E71F3FD713B7438700291279 /* Clock.m in Sources */,
+				865CC6D513BDDF4800799E54 /* Model.xcdatamodeld in Sources */,
+				865CC6D813BDDF7A00799E54 /* SystemData.m in Sources */,
+				865CC70E13BDE1D900799E54 /* FeedbackAnswer.m in Sources */,
+				865CC71113BDE1D900799E54 /* EmployeeCostCode.m in Sources */,
+				865CC71413BDE1D900799E54 /* EquipmentUse.m in Sources */,
+				865CC71713BDE1D900799E54 /* Employee.m in Sources */,
+				865CC71A13BDE1D900799E54 /* JobPhoto.m in Sources */,
+				865CC71D13BDE1D900799E54 /* FieldNoteBackup.m in Sources */,
+				865CC72013BDE1DA00799E54 /* CustomerCostCode.m in Sources */,
+				865CC72313BDE1DA00799E54 /* Customer.m in Sources */,
+				865CC72613BDE1DA00799E54 /* FieldNote.m in Sources */,
+				865CC72913BDE1DA00799E54 /* FeedbackQuestion.m in Sources */,
+				865CC72C13BDE1DA00799E54 /* CustomList.m in Sources */,
+				865CC72F13BDE1DA00799E54 /* Company.m in Sources */,
+				865CC73213BDE1DA00799E54 /* TimeRecording.m in Sources */,
+				865CC73513BDE1DA00799E54 /* CustomerEmployee.m in Sources */,
+				865CC73813BDE1DA00799E54 /* CostCode.m in Sources */,
+				865CC73B13BDE1DA00799E54 /* Clock.m in Sources */,
+				865CC73E13BDE1DA00799E54 /* FeedbackAnswerBackup.m in Sources */,
+				865CC74113BDE1DA00799E54 /* MealExpense.m in Sources */,
+				865CC74413BDE1DA00799E54 /* MealExpenseBackup.m in Sources */,
+				865CC74713BDE1DA00799E54 /* TimeRecordingBackup.m in Sources */,
+				865CC74A13BDE1DA00799E54 /* Equipment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1285,13 +1281,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8672EB8713B4607400E64637 /* AboutTimePlus.xcdatamodeld */ = {
+		865CC6D313BDDF4800799E54 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */,
+				865CC6D413BDDF4800799E54 /* Model.xcdatamodel */,
 			);
-			currentVersion = 8672EB8813B4607400E64637 /* AboutTimePlus.xcdatamodel */;
-			path = AboutTimePlus.xcdatamodeld;
+			currentVersion = 865CC6D413BDDF4800799E54 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
