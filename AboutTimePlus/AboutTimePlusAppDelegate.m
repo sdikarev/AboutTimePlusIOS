@@ -61,8 +61,20 @@
 	//[self updateInterfaceWithReachability: hostReach];
     
 	self.cs = [sc LoadClockState];
+    
+    NSMutableArray *array = [[[NSArray alloc] init] autorelease];
+    //SyncCenter *s = (SyncCenter *)[UIAppDelegate switchViewController].sc;
+    array = [self.sc createRequest:@"SystemData" initWithKey:[NSString stringWithString:@""] asc:NO];
+    
 }
 
+//Called by Reachability whenever status changes.
+- (void) reachabilityChanged: (NSNotification* )note
+{
+    Reachability* curReach = [note object];
+    NSParameterAssert([curReach isKindOfClass: [Reachability class]]);
+    //[self updateInterfaceWithReachability: curReach];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -172,7 +184,7 @@
     {
         return __managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"AboutTimePlus" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Model" withExtension:@"momd"];
     __managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
     return __managedObjectModel;
 }
@@ -188,7 +200,7 @@
         return __persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"AboutTimePlus.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Model.sqlite"];
     
     NSError *error = nil;
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];

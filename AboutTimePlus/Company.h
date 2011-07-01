@@ -2,8 +2,8 @@
 //  Company.h
 //  AboutTimePlus
 //
-//  Created by Bartimeus on 26.06.11.
-//  Copyright (c) 2011 Incoding. All rights reserved.
+//  Created by Sergey Dikarev on 01.07.11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,7 +13,6 @@
 @interface Company : NSManagedObject {
 @private
 }
-@property (nonatomic, retain) NSNumber * AutoSleepOff;
 @property (nonatomic, retain) NSNumber * CompanyId;
 @property (nonatomic, retain) NSString * customList1Label;
 @property (nonatomic, retain) NSString * customList2Label;

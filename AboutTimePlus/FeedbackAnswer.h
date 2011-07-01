@@ -2,8 +2,8 @@
 //  FeedbackAnswer.h
 //  AboutTimePlus
 //
-//  Created by Bartimeus on 26.06.11.
-//  Copyright (c) 2011 Incoding. All rights reserved.
+//  Created by Sergey Dikarev on 01.07.11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
